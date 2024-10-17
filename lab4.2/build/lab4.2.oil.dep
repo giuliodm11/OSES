@@ -1,0 +1,9 @@
+lab4.2.oil: \
+ /Users/giuliodimartino/Desktop/trampoline/goil/templates/config/config.oil \
+ /Users/giuliodimartino/Desktop/trampoline/goil/templates/config/kernel.oil \
+ /Users/giuliodimartino/Desktop/trampoline/goil/templates/config/api.oil \
+ /Users/giuliodimartino/Desktop/trampoline/goil/templates/config/api_ioc.oil \
+ /Users/giuliodimartino/Desktop/trampoline/goil/templates/config/avr/config.oil \
+ /Users/giuliodimartino/Desktop/trampoline/goil/templates/config/avr/arduino/config.oil \
+ /Users/giuliodimartino/Desktop/trampoline/goil/templates/config/avr/arduino/uno/config.oil \
+ /Users/giuliodimartino/Desktop/trampoline/goil/templates/config/config2.5.oil
