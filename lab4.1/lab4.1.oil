@@ -1,0 +1,73 @@
+OIL_VERSION = "2.5" : "test" ;
+
+CPU test {    
+  OS config {
+    STATUS = STANDARD;
+    BUILD = TRUE {
+      TRAMPOLINE_BASE_PATH = "../../../..";
+      APP_NAME = "lab4";
+      APP_SRC = "lab4.cpp";
+      CPPCOMPILER = "avr-g++";
+      COMPILER = "avr-gcc";
+      LINKER = "avr-gcc";
+      ASSEMBLER = "avr-gcc";
+      COPIER = "avr-objcopy";
+      SYSTEM = PYTHON;
+      LIBRARY = serial;
+
+    };
+    
+  };
+
+  APPMODE stdAppmode {};
+  
+  RESOURCE Res{
+    RESOURCEPROPERTY = STANDARD;
+  };
+
+
+
+ ALARM a100sec {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK { TASK = TaskS; };
+    AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 98; CYCLETIME = 98; APPMODE = stdAppmode; };
+  };
+
+ALARM a500msec {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK { TASK = TaskB; };
+    AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 488; CYCLETIME = 488; APPMODE = stdAppmode; };
+  };
+  
+ ALARM a125msec{
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK{TASK = TaskV;};
+    AUTOSTART = TRUE{APPMODE = stdAppmode; ALARMTIME = 122;CYCLETIME = 122; APPMODE = stdAppmode;};
+  };
+
+  TASK TaskS {
+    PRIORITY = 3;
+    AUTOSTART = TRUE {APPMODE = stdAppmode; };
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+    RESOURCE = Res;
+  };
+
+ TASK TaskV {
+    PRIORITY = 2;
+    AUTOSTART = FALSE;
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+    RESOURCE = Res;
+  };
+
+
+TASK TaskB {
+    PRIORITY = 1;
+    AUTOSTART = FALSE;
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+    RESOURCE = Res;
+  };
+
+};

@@ -1,0 +1,19 @@
+build/lab4.1/tpl_invoque.S.o: lab4.1/tpl_invoque.S \
+ ../../../../os/tpl_os_application_def.h lab4.1/tpl_app_define.h \
+ ../../../../os/tpl_config_def.h ../../../../os/tpl_config_check.h \
+ lab4.1/tpl_service_ids.h ../../../../machines/avr/tpl_assembler.h \
+ ../../../../os/tpl_as_memmap.h
+
+../../../../os/tpl_os_application_def.h:
+
+lab4.1/tpl_app_define.h:
+
+../../../../os/tpl_config_def.h:
+
+../../../../os/tpl_config_check.h:
+
+lab4.1/tpl_service_ids.h:
+
+../../../../machines/avr/tpl_assembler.h:
+
+../../../../os/tpl_as_memmap.h:
