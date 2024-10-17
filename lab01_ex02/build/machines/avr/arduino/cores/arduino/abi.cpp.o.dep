@@ -1,0 +1,8 @@
+build/machines/avr/arduino/cores/arduino/abi.cpp.o: \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/abi.cpp \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdlib.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stddef.h
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdlib.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stddef.h:

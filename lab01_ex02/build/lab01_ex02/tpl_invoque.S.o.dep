@@ -1,0 +1,22 @@
+build/lab01_ex02/tpl_invoque.S.o: lab01_ex02/tpl_invoque.S \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_application_def.h \
+ lab01_ex02/tpl_app_define.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_config_def.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_config_check.h \
+ lab01_ex02/tpl_service_ids.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_assembler.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_as_memmap.h
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_application_def.h:
+
+lab01_ex02/tpl_app_define.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_config_def.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_config_check.h:
+
+lab01_ex02/tpl_service_ids.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_assembler.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_as_memmap.h:

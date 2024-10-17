@@ -1,0 +1,80 @@
+build/os/tpl_os_alarm_kernel.c.o: \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_alarm_kernel.c \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_alarm_kernel.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_timeobj_kernel.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_internal_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_os_std_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_custom_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_application_def.h \
+ lab01_ex02/tpl_app_define.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_config_def.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_config_check.h \
+ lab01_ex02/tpl_app_custom_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_compiler.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_machine.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_custom_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_compiler.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_memmap.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_action.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_task_kernel.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_kernel.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_multicore_macros.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_machine_interface.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_definitions.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_error.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_errorhook.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_trace.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_debug.h
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_alarm_kernel.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_timeobj_kernel.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_internal_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_os_std_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_custom_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_application_def.h:
+
+lab01_ex02/tpl_app_define.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_config_def.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_config_check.h:
+
+lab01_ex02/tpl_app_custom_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_compiler.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_machine.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_custom_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_compiler.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_memmap.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_action.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_task_kernel.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_kernel.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_multicore_macros.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_machine_interface.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_definitions.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_error.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_errorhook.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_trace.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_debug.h:

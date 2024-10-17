@@ -1,0 +1,149 @@
+build/machines/avr/arduino/cores/arduino/main.cpp.o: \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/main.cpp \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Arduino.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdlib.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stddef.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stdbool.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/string.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/math.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/pgmspace.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/inttypes.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stdint.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdint.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/io.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/sfr_defs.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/iom328p.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/portpins.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/common.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/version.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/fuse.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/lock.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/interrupt.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/binary.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/WCharacter.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/ctype.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/WString.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/HardwareSerial.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Stream.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Print.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdio.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stdarg.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Printable.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/USBAPI.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/eeprom.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/util/delay.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/util/delay_basic.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Arduino.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/variants/standard/pins_arduino.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_os.h \
+ lab01_ex02/tpl_app_custom_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_compiler.h \
+ lab01_ex02/tpl_app_define.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_config_def.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_config_check.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_os_std_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_internal_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_custom_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_application_def.h \
+ /Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_machine.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_os_custom_types.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_compiler.h \
+ /Users/giuliodimartino/Desktop/trampoline/os/tpl_memmap.h
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Arduino.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdlib.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stddef.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stdbool.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/string.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/math.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/pgmspace.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/inttypes.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stdint.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdint.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/io.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/sfr_defs.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/iom328p.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/portpins.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/common.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/version.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/fuse.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/lock.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/interrupt.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/binary.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/WCharacter.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/ctype.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/WString.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/HardwareSerial.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Stream.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Print.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdio.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stdarg.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Printable.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/USBAPI.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/avr/eeprom.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/util/delay.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/util/delay_basic.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/cores/arduino/Arduino.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/arduino/variants/standard/pins_arduino.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_os.h:
+
+lab01_ex02/tpl_app_custom_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_compiler.h:
+
+lab01_ex02/tpl_app_define.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_config_def.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_config_check.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_os_std_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_internal_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_custom_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_application_def.h:
+
+/Users/giuliodimartino/Desktop/trampoline/machines/avr/tpl_machine.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_os_custom_types.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_compiler.h:
+
+/Users/giuliodimartino/Desktop/trampoline/os/tpl_memmap.h:
