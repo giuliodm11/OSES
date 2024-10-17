@@ -1,0 +1,53 @@
+OIL_VERSION = "2.5" : "test" ;
+
+CPU test {    
+  OS config {
+    STATUS = STANDARD;
+    BUILD = TRUE {
+      TRAMPOLINE_BASE_PATH = "../../../..";
+      APP_NAME = "lab43";
+      APP_SRC = "lab4.3.cpp";
+      CPPCOMPILER = "avr-g++";
+      COMPILER = "avr-gcc";
+      LINKER = "avr-gcc";
+      ASSEMBLER = "avr-gcc";
+      COPIER = "avr-objcopy";
+      SYSTEM = PYTHON;
+      LIBRARY = serial;
+    };
+    SYSTEM_CALL = TRUE;
+  };
+
+  APPMODE stdAppmode {};
+  
+  RESOURCE Sem{
+  RESOURCEPROPERTY = STANDARD;
+   };
+  
+  
+
+   
+   
+  ALARM a25ms {
+    COUNTER= SystemCounter;
+    ACTION = ACTIVATETASK {
+      TASK = TaskZ;
+    };
+    AUTOSTART = TRUE {
+      ALARMTIME = 24;CYCLETIME = 24;APPMODE = stdAppmode; };
+  };
+
+
+
+ 
+  TASK TaskZ {
+    PRIORITY = 1;
+    AUTOSTART = TRUE { APPMODE = stdAppmode;};
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+    RESOURCE= Sem;
+  };
+  
+
+};    
+

@@ -1,0 +1,15 @@
+build/machines/avr/arduino//tpl_trace.cpp.o: \
+ ../../../../machines/avr/arduino//tpl_trace.cpp lab4.3/tpl_app_define.h \
+ ../../../../os/tpl_config_def.h ../../../../os/tpl_config_check.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stdint.h \
+ /usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdint.h
+
+lab4.3/tpl_app_define.h:
+
+../../../../os/tpl_config_def.h:
+
+../../../../os/tpl_config_check.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/lib/avr-gcc/9/gcc/avr/9.4.0/include/stdint.h:
+
+/usr/local/Cellar/avr-gcc@9/9.4.0/avr/include/stdint.h:
