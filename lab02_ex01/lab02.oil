@@ -1,0 +1,104 @@
+OIL_VERSION = "2.5" : "test";
+
+
+
+CPU test {   
+  OS config {
+    STATUS = STANDARD;
+    BUILD = TRUE {
+      TRAMPOLINE_BASE_PATH = "/Users/giuliodimartino/Desktop/trampoline";
+      APP_NAME = "lab01";
+      APP_SRC = "lab02.cpp";
+      CPPCOMPILER = "avr-g++";
+      COMPILER = "avr-gcc";
+      LINKER = "avr-gcc";
+      ASSEMBLER = "avr-gcc";
+      COPIER = "avr-objcopy";
+      SYSTEM = PYTHON;
+      LIBRARY = serial;
+    };
+    SYSTEM_CALL = TRUE;
+  };
+  
+  APPMODE stdAppmode {};
+
+MESSAGE Message_send_taskC {
+  MESSAGEPROPERTY = SEND_STATIC_INTERNAL{
+     CDATATYPE = "int";
+  };
+};
+
+
+  MESSAGE Message_send_taskM {
+  MESSAGEPROPERTY = SEND_STATIC_INTERNAL{
+     CDATATYPE = "int";
+  };
+};
+  
+  
+  MESSAGE Message_rec_taskM{
+    MESSAGEPROPERTY = RECEIVE_UNQUEUED_INTERNAL{
+      SENDINGMESSAGE = Message_send_taskC;
+    };
+  };
+
+
+  MESSAGE Message_rec_taskV{
+    MESSAGEPROPERTY = RECEIVE_UNQUEUED_INTERNAL {
+      SENDINGMESSAGE = Message_send_taskM;
+    };
+  };
+
+  
+
+  ALARM a100msec {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK { TASK = TaskC; };
+    AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME =98 ; CYCLETIME =98; };
+  };
+
+  ALARM a500msec {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK { TASK = TaskM; };
+    AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 488; CYCLETIME = 488; };
+  };
+  
+ ALARM alarmTaskV
+  {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK
+    {
+      TASK = TaskV;
+    };
+    AUTOSTART = TRUE
+    {
+      APPMODE = stdAppmode;
+      ALARMTIME = 122;  // 4Hz  
+      CYCLETIME = 122;
+    };
+  };
+
+  
+  TASK TaskC {
+    PRIORITY = 2;
+    AUTOSTART = FALSE;
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+  };
+
+  TASK TaskM {
+    PRIORITY = 1;
+    AUTOSTART = FALSE;
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+  };
+
+  TASK TaskV {
+    PRIORITY = 3;
+    AUTOSTART = TRUE { APPMODE = stdAppmode; };
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+  };
+
+  };
+ 
